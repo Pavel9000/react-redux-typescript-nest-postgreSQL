@@ -1,0 +1,46 @@
+
+.message_wrap {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    z-index: 99999;
+    border: solid 1px black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.message_block {
+    width: 320px;
+    min-height: 180px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+}
+
+.message_block_message {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.message_block_button {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #7969e6;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: solid 0px;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+}
